@@ -1,0 +1,9 @@
+---
+- name: check disk space in slaves
+  hosts: all
+  tasks:
+        - name: disk space from command module
+          command: df -h
+          register: space
+        - debug:
+                var: space

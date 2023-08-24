@@ -1,8 +1,9 @@
 ---
 - name: Run basic PowerShell script
   hosts: all  
+  become: false
   tasks:
         - name: basic task
           ansible.windows.win_powershell:
-          script: |
-            echo "Hello World"
+           script: |
+             echo "Hello World"

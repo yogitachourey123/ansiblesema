@@ -4,4 +4,4 @@
   tasks:
         ansible.windows.win_powershell:
         script: |
-        echo "Hello World"
+            echo "Hello World"

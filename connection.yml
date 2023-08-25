@@ -2,7 +2,6 @@
 - name: checking connection with windows vm
   hosts: all
   become: false
-  ansible_winrm_transport: ntlm
   tasks:
         - name: ping windows vm
           ansible.windows.win_powershell:

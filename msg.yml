@@ -1,0 +1,8 @@
+---
+- name: print the msg
+- hosts: all
+- become: false
+  tasks:
+    - name: print msg
+      debug:
+        msg: Hello Ansible world

@@ -1,6 +1,6 @@
 ---
 - name: print the msg
-- hosts: 10.92.253.173
+- hosts: all
 - become: false
   tasks:
     - name: print msg

@@ -1,7 +1,7 @@
 ---
 - name: print the msg
-- hosts: all
-- become: false
+  hosts: all
+  become: false
   tasks:
     - name: print msg
       debug:

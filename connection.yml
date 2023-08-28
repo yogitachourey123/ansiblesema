@@ -2,6 +2,7 @@
 - name: checking connection with windows vm
   hosts: all
   become: false
+  become_method: runas
   tasks:
         - name: ping windows vm
           ansible.windows.win_powershell:

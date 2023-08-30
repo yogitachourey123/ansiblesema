@@ -1,0 +1,8 @@
+#playbook.yaml
+---
+- name: Get hostname and IP address of Alpine hosts
+  hosts: all
+  tasks:
+    - name: Display hostname and IP address
+      debug:
+        msg: "Hostname: {{ ansible_gret }}, IP Address: {{ ansible_cun }}"

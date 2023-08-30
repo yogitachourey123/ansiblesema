@@ -4,6 +4,6 @@
   tasks:
          - name: creating the user
            user:
-                 name: "{{ user_name }}"
-                 uid: "{{ user_id }}"
-                 state: present
+                name: "{{ env_username }}"
+                uid: "{{ env_uid }}"
+                state: present

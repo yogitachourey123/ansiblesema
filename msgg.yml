@@ -5,4 +5,4 @@
   tasks:
     - name: Display hostname and IP address
       debug:
-        msg: "Hostname: {{ ansible_gret }}, IP Address: {{ ansible_cun }}"
+        msg: "Hey! {{ ansible_gret }}, welcome to the {{ ansible_cun }}"

@@ -1,0 +1,9 @@
+---
+- name: create user
+  hosts: all
+  tasks:
+       - name: creating the user
+         user:
+             name: "{{ user_name }}"
+             uid: "{{ user_id }}"
+             state: present

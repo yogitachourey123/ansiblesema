@@ -3,6 +3,6 @@
   tasks:
         - name: creating an empty file
           file:
-                path: 
+                path: "{{ env_filepath }}"
                 state: touch
-          become: yes
+                become: yes

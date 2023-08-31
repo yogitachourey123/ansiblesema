@@ -7,4 +7,5 @@
         - name: ping windows vm
           ansible.windows.win_powershell:
             script: |
-              Test-Connection -ComputerName 10.92.253.179
+              Test-Connection -ComputerName 20.231.196.162
+

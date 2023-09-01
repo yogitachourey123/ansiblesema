@@ -4,7 +4,7 @@
    - name: Clone a github repository
      git:
        repo: https://github.com/yogitachourey123/clonetoansible.git
-       dest: /home/hcligt
+       dest: /home/hcligt/mydir
        clone: yes
        force: yes
        update: yes

@@ -6,4 +6,5 @@
        repo: https://github.com/yogitachourey123/clonetoansible.git
        dest: /home/hcligt
        clone: yes
+       force: yes
        update: yes

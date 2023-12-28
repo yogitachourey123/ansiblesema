@@ -1,6 +1,6 @@
 ---
 - name: checking connection with windows vm
-  hosts: all
+  hosts: local
   become: false
   become_method: runas
   tasks:

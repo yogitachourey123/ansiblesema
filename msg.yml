@@ -1,6 +1,6 @@
 ---
 - name: print the msg
-  hosts: all
+  hosts: local
   become: false
   tasks:
     - name: print msg

@@ -1,6 +1,6 @@
 ---
 - name: print the msg
-  hosts: win
+  hosts: linux
   become: false
   tasks:
     - name: print msg
